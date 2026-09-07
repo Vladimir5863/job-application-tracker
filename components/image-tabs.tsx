@@ -11,7 +11,7 @@ const ImageTabs = () => {
             <div className="container mx-auto px-4">
                 <div className="mx-auto max-w-6xl">
                     {/* Tabs */}
-                    <div className="flex gap-2 justify-center b-8">
+                    <div className="flex gap-2 justify-center mb-8">
                         <Button
                             onClick={() => setActiveTab('organize')}
                             className={`rounded-lg px-5 py-3 text-sm font-medium transition-colors ${activeTab === 'organize' ? 'bg-primary text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}>
